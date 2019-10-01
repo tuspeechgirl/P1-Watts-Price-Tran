@@ -1,13 +1,25 @@
 @import "variables";
-@primary-blue: #79a8d6;
-@primary-orange: #f79a7c;
-@secondary-white: #FEFCFB;
-@secondary-black:#0f0b0b;
+
+.nav{
+  background: @primary-blue;
+  color: @secondary-white;
+  height: @width-1;
+  padding-top: 2%;
+  padding-right: 2%;
+}
+.nav{
+  .nav-link{
+    color: @secondary-white;
+    font-size: @nav-text;
+  }
+}
+
 
 
 
 .jumbotron{
-  background: url("../img/dogs-running.jpg");
+  background: url("../img/jaygo.jpg");
   background-size: cover;
+  height: 300px;
 
 }
