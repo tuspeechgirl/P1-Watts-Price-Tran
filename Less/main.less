@@ -1,6 +1,6 @@
 @import "variables";
 
-
+//navigation styles//
   .navbar{
   background: @primary-blue !important;
   color: @secondary-white;
@@ -10,33 +10,47 @@
 }
 
 .navbar{
-  .nav-item{
-    color: @secondary-white;
+    .nav-link{
+    color: @secondary-white !important;
     font-size: @nav-text;
-
+    font-family: @font-secondary;
+    margin-right: 15% !important;
   }
 }
+
 
 .navbar-toggler{
   background: @secondary-white;
 }
-.jumbotron-fluid{
-  background: url("../img/logo/jaygo.jpg");
-  background-size: cover;
-  height: 200px;
-  }
 
 #navbarTogglerDemo03{
   background: @primary-blue;
 }
+//Jumbotron styles
+.jumbotron-fluid{
 
+      background: url("../img/logo/jaygo2.jpg") no-repeat center center;
+      -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+  }
+
+
+
+//Row 1 Section//
+.badge{
+  background: @primary-blue;
+  font-family: @font-secondary;
+}
 
 .paratext{
   margin: 5% 2% 5% 2%;
     }
 .section-info{
-  background: url("../img/orange-paws.png");
-  background-size: 1000px;
+  background: url("../img/orange-paws-light.png")no-repeat;
+background-size: contain;
+background-position: right 1px bottom 5px;
   height: 600px;
     .heading{
       color:@primary-blue;
@@ -47,6 +61,12 @@
 
       }
 
+//Row 2 Section Blue Styles//
+.container-fluid-2{
+  margin-top: 10px;
+  background: @primary-blue;
+  width: 100%;
+}
 .card-1, .card-2, .card-3{
   margin-top: 50px;
   border: solid 4px  @secondary-white;
@@ -60,6 +80,8 @@
       padding-top: 12%;
     }
 }
+
+//Row 3 Button Section//
 .section-2{
   margin-top: 100px;
   height: 400px;
@@ -87,10 +109,4 @@
   float:right;
   margin-top:-10%;
   margin-right: 10%;
-}
-
-.container-fluid-2{
-  margin-top: 10px;
-  background: @primary-blue;
-  width: 100%;
 }
