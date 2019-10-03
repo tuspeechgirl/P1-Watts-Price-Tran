@@ -1,1 +1,1 @@
-.card-style{border:solid 4px #fefcfb;background:#79a8d6;height:200px;margin:5%}.back-size{background-size:contain;background-position:right 1px bottom 5px}
+.card-style{border:solid 4px #fefcfb;background:#79a8d6;background:-webkit-linear-gradient(59deg, #79a8d6, #7999d6);background:linear-gradient(59deg, #79a8d6, #7999d6);height:200px;margin:5%}.back-size{background-size:contain;background-position:right 1px bottom 5px}.gradient{background:#79a8d6;background:-webkit-linear-gradient(59deg, #79a8d6, #7999d6);background:linear-gradient(59deg, #79a8d6, #7999d6)}
