@@ -45,6 +45,7 @@
   background-size: 100% 100%;
 }
 
+
 //Row 1 Section//
 .badge{
   .gradient() !important;
@@ -114,6 +115,7 @@
 .dog-card{
   float: right;
 }
+
 //footer//
 
 .myfoot{
@@ -238,4 +240,111 @@ ul.social-network li {
 
 .social-network a {
   background-color: #F9F9F9;
+}
+
+
+
+
+//Sevices Page//
+.service-options{
+  .service();
+}
+
+
+.service-bar{
+  background: @primary-blue;
+  .bar();
+}
+.service-bar2{
+  background: @primary-orange;
+  .bar();
+
+}.service-bar3{
+  background: @primary-blue;
+  .bar();
+}
+.section-info-services{
+    background: url("../img/logo/orange-paws-light.png");
+    background-position: center;
+
+    height: 200px;
+      .heading{
+        color:@primary-blue;
+        font-family: @font;
+        font-size: 4rem;
+        display: inline;
+          }
+        }
+        .change-tron-2{
+          background: url("../img/day2.jpg") no-repeat center center;
+          -webkit-background-size: 100% 100%;
+          -moz-background-size: 100% 100%;
+          -o-background-size: 100% 100%;
+          background-size: 100% 100%;
+          margin-top: 3%;
+          margin-bottom: -5%;
+        }
+
+//PRICE SECTION//
+section.pricing {
+  margin-top: 5%;
+.gradient();
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
 }
