@@ -51,8 +51,7 @@
     }
 .section-info{
   background: url("../img/orange-paws-light.png")no-repeat;
-background-size: contain;
-background-position: right 1px bottom 5px;
+  .back-size();
   height: 500px;
     .heading{
       color:@primary-blue;
@@ -74,29 +73,25 @@ background-position: right 1px bottom 5px;
   width: 100%;
 }
 .card-1, .card-2, .card-3{
-  margin-top: 50px;
-  border: solid 4px  @secondary-white;
-  background: @primary-blue;
-  height: 200px;
-  margin-left: 5%;
-    .card-title{
-      font-family: @font;
-      color:@secondary-white;
-      text-align: center;
-      padding-top: 12%;
+    .card-style();  //usimg mix-ins//
+      .card-title{            //using nesting//
+        font-family: @font;
+        color:@secondary-white;
+        text-align: center;
+        padding-top: 12%;
     }
-}
+  }
+
 
 //Row 3 Button Section//
 .section-2{
   margin-top: 100px;
   height: 400px;
-  background: url("../img/orange-paws.png");
-  background-size: 45%;
-  margin-left: 50px;
+  background: url("../img/orange-paws-flip2.png")no-repeat;
+       background-size: cover;
     .heading2{
       color:@primary-blue;
-      font-family: @font;
+      font-family: @font;     //nesting//
       font-size: 4rem;
             }
           }
@@ -108,7 +103,6 @@ background-position: right 1px bottom 5px;
   background: @primary-blue;
   font-family: @font;
   margin-top: 5%;
-
 }
 .dogs2{
   height:400px;
