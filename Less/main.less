@@ -10,8 +10,6 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
-
-
 //navigation styles//
   .navbar{
     .gradient() !important;
@@ -48,6 +46,11 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
    height: 100%;
 }
 
+#jtron-holder {
+  min-height: 250px;
+}
+
+
 .change-tron{
   background: url("../img/logo/image2_v1.jpg") no-repeat center center;
   -webkit-background-size: 100% 100%;
@@ -58,12 +61,20 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 
 //Row 1 Section//
-.badge{
-  .gradient() !important;
-  font-family: @font-secondary;
+.section-info {
+  display: flex;
+  flex-wrap: wrap;
 
+  .heading{
+    color:@primary-blue;
+    font-family: @font;
+    font-size: 4rem;
+    display: inline;
+    }
 }
-.badge-2{
+
+
+.badge-2 {
   .gradient() !important;
   font-family: @font-secondary;
 
@@ -76,23 +87,9 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 .paratext{
-  margin: 5% 2% 5% 2%;
+  margin: 0 auto;
   font-weight: bold;
   font-family: @font-secondary;
-}
-
-
-.section-info{
-  background: url("../img/logo/orange-paws-light.png")no-repeat;
-
-  .back-size();
-  height: 500px;
-  .heading{
-    color:@primary-blue;
-    font-family: @font;
-    font-size: 4rem;
-    display: inline;
-    }
 }
 
 .section-text{
@@ -106,11 +103,22 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 .container-fluid-2{
-  margin: 55% auto 0 auto;
-.gradient() !important;
+  .gradient() !important;
   width: 100%;
 }
+
 .card-1, .card-2, .card-3{
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: grey;
+    text-decoration: underline;
+    transition: 3s;
+  }
+
     .card-style();  //usimg mix-ins//
       .card-title{            //using nesting//
         font-family: @font;
@@ -160,7 +168,9 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 /*FOOTER*/
 .circle{
   width: 150px;
+  text-align: center;
 }
+
 footer {
   .gradient();
   color: white;
@@ -176,6 +186,10 @@ footer a {
 footer a:hover {
   color: #FA944B;
   text-decoration: none;
+}
+
+footer img {
+  text-align: center;
 }
 
 .copy {
