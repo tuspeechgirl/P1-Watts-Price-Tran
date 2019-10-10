@@ -47,7 +47,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
    background-image: url("../img/logo/jaygo.jpg");
    background-size: cover;
    background-repeat: no-repeat;
-   height: 100%;
+
 }
 
 #jtron-holder {
@@ -68,11 +68,6 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 #section1 {
   padding: 5% 10%;
   margin: 0 auto;
-	//ELIZABETH CANT
-	@media (min-width: 700px) {
-		padding: 5% 23% 5% 5%;
-		//parprint goes in
-	}
 }
 
 .section-info {
@@ -117,7 +112,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 .container-fluid-2{
   .gradient() !important;
   width: 100%;
-	//ELIZABETH CHANGE WONT WORK
+
 	.row {
 		max-width: 1250px;
 		margin:auto;
@@ -141,7 +136,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
         text-align: center;
         padding-top: 12%;
 				color:@primary-blue;
-		    font-size: 4rem;
+		    font-size: 3rem;
 
     }
   }
@@ -150,6 +145,10 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 //Row 3 Button Section//
 #section3 {
   margin-top: 5%;
+	@media (min-width: 700px) {
+		background-image: url(../img/logo/orange-paws.png);
+		//parprint goes in
+	}
 }
 
 .dog-card {
@@ -211,8 +210,8 @@ footer a:hover {
 
 footer img {
   text-align: center;
-}
 
+}
 .copy {
   font-size: 12px;
   padding: 10px;
@@ -222,7 +221,6 @@ footer img {
 .footer-middle {
   padding-top: 2em;
   color: white;
-	//ELIZABETH CANT GET
 	border-top: solid;
   border-color: #f79a7c;
   border-width: 19px;
@@ -237,7 +235,6 @@ ul.social-network {
   list-style: none;
   display: inline;
   margin-left: 0 !important;
-  padding: 0;
 }
 
 ul.social-network li {
@@ -582,7 +579,6 @@ section .section-title {
   .pricing .card:hover .btn {
     opacity: 1;
   }
-	//ELIZABETH CANT
 	.navbar-expand-lg {
 		padding-left: 7%;
 	//want all center align
