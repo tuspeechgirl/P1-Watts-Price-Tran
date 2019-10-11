@@ -47,26 +47,63 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
    background-image: url("../img/logo/jaygo.jpg");
    background-size: cover;
    background-repeat: no-repeat;
-
+	 @media (min-width: 1032px) {
+		 background-image: url("../img/logo/jaygo3.jpg");
+	 }
 }
 
 #jtron-holder {
-  min-height: 250px;
+  min-height: 20vw;
+	@media (min-width: 754px) {
+		min-height: 25vw;
+	}
+	@media (min-width: 1032px) {
+		min-height: 20vw;
+	}
+	@media (min-width: 1462px) {
+		min-height: 23vw;
+	}
 }
 
 
 .change-tron{
-  background: url("../img/logo/image2_v1.jpg") no-repeat center center;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
-}
-.change-tron-2{
-  background: url("../img/logo/servicesbanner.jpg"); 
+  background: url("../img/logo/image2_v1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
+	@media (min-width: 1032px) {
+		background-image: url("../img/logo/image2_v1_2.jpg");
+	}
 }
+.change-tron-2{
+  background: url("../img/logo/servicesbanner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	@media (min-width: 1032px) {
+		background-image: url("../img/logo/servicesbanner2.jpg");
+	}
+	}
+
+	.t-tron {
+		background: url("../img/logo/reservation.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		@media (min-width: 1032px) {
+			background-image: url("../img/logo/reservation2.jpg");
+		}
+	}
+
+	.r-tron {
+		background: url("../img/logo/testimonials.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		@media (min-width: 1032px) {
+			background-image: url("../img/logo/testimonials2.jpg");
+		}
+	}
 
 //Row 1 Section//
 #section1 {
@@ -570,7 +607,6 @@ section .section-title {
       display: inline;
         }
 }
-
 
 
 
